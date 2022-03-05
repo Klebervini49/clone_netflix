@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #141414;
+    color: #FFF;
+}
+
+h1 {
+    margin: 30px 0;
+}
+
+.container {
+    max-width: 1540px;
+}
+
+.ativo {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.swiper-slide {
+    font-size: 13px;
+}

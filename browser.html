@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="slider">
+            <h1>Populares</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper page1">
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="slider">
+            <h1>Ação</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper page2">
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 6,
+            spaceBetween: 5,
+            slidesPerGroup: 6,
+            pagination: {
+                clickable: true,
+            },
+            loop: true,
+        })
+    </script>
+    <script src="js/script.js" defer></script>
+
+</body>
+
+</html>

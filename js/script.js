@@ -3,7 +3,7 @@ function page1() {
         pageString = '.page1',
         title_page = 'Teste',
         API_KEY = '386e8e900b2b3cc4583a5b5d7317d4eb',
-        url = `http://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&sort_by=popularity.desc&include_adult=true&language=pt-BR&page=${page}`;
+        url = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&sort_by=popularity.desc&include_adult=true&language=pt-BR&page=${page}`;
 
     document.querySelector('.title_page1 h1').innerText = title_page
 

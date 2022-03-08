@@ -32,3 +32,11 @@ img {
 .swiper-slide {
     font-size: 13px;
 }
+
+.modalSlide {
+    display: none;
+}
+
+.modalSlide.ativo {
+    display: block;
+}
